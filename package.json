@@ -1,0 +1,47 @@
+{
+  "name": "color-blocks-advanced",
+  "version": "1.0.0",
+  "description": "We will be building up an application that creates Color Blocks on the DOM based off of buttons that are loaded right away. Additionally, we are going to be tracking the number of Blocks in each color we create. When the user clicks on a color button, it will create a Color Block, then add to that colors count.",
+  "main": "index.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts build && node server/server.js",
+    "server": "nodemon --watch server server/server.js",
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Myron Schippers",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

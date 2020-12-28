@@ -1,0 +1,21 @@
+.appTopper {
+  background-color: #293141;
+  color: #a1b3d6;
+}
+
+.appHdg {
+  text-align: center;
+  margin: 0;
+  padding: 26px 0;
+}
+
+.appTopper-toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #414e68;
+}
+
+.appLogo {
+  width: 60px;
+}
